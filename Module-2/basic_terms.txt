@@ -13,3 +13,5 @@ str() - converts a value (often numeric) to a string data type
 int() - converts a value (usually a float) to an integer data type
 
 float() - converts a value (usually an integer) to a float data type
+
+Function 
