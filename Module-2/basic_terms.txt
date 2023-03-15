@@ -14,4 +14,23 @@ int() - converts a value (usually a float) to an integer data type
 
 float() - converts a value (usually an integer) to a float data type
 
-Function 
+The purpose of the def() keyword is to define a new function. 
+
+// --> Floor devision Oprator divide the number and take the int part 
+        as a result
+
+None --> A Special Datatype in py used to indicate that thing 
+        are empty or they return nothing   
+
+return value - the value or variable returned as the end result of a function
+
+parameter (argument) -  a value passed into a function for use within the function
+
+refactoring code - a process to restructure code without changing functionality 
+
+Create a reusable function - 
+Replace duplicate code with one reusable function to make the code easier to read and repurpose.
+
+Refactor code - Update code so that it is self-documenting and the intent of the code is clear.
+
+Add comments - Adding comments is part of creating self-documenting code. Using comments allows you to leave notes to yourself and/or other programmers to make the purpose of the code clear.  
