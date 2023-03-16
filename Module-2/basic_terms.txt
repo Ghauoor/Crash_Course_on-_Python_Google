@@ -33,4 +33,56 @@ Replace duplicate code with one reusable function to make the code easier to rea
 
 Refactor code - Update code so that it is self-documenting and the intent of the code is clear.
 
-Add comments - Adding comments is part of creating self-documenting code. Using comments allows you to leave notes to yourself and/or other programmers to make the purpose of the code clear.  
+Add comments - Adding comments is part of creating self-documenting code. 
+Using comments allows you to leave notes to yourself and/or other programmers to make the purpose of the code clear.  
+
+
+Expression
+
+Description
+
+"a" == "a"
+
+If string "a" is identical to string "a", returns True. Else, returns False
+
+"a" != "b"
+
+If string "a" is not identical to string "b"
+
+"a" > "b"
+
+If string "a" has a larger Unicode value than string "b"
+
+"a" >= "b"
+
+If the Unicode value for string "a" is greater than or equal to the Unicode value of string "b"
+
+"a" < "b"
+
+If string "a"  has a smaller Unicode value than string "b"
+
+"a" <= "b"
+
+If the Unicode value for string "a" is smaller than or equal to the Unicode value of string "b"
+
+a == a and a != b
+
+True if both sides are True, otherwise False.
+
+a > b or a <= c
+
+True if either side is True. False if both sides are False.
+
+not a == b
+
+True if the statement is False, False if the statement is True.
+
+Building off of the if and else blocks, which allow us to branch our code depending on the evaluation of one statement, 
+the elif statement allows us even more comparisons to perform more complex branching. 
+Very similar to the if statements, an elif statement starts with the elif keyword, 
+followed by a comparison to be evaluated. This is followed by a colon, 
+and then the code block on the next line, indented to the right. 
+An elif statement must follow an if statement, 
+and will only be evaluated if the if statement was evaluated as false. 
+You can include multiple elif statements to build complex branching in your code to do all kinds of powerful things!
+
