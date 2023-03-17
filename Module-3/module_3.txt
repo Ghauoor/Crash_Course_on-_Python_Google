@@ -4,3 +4,6 @@ while loop - Tells the computer to execute a set of instructions while a specifi
 infinite loop - Missing a method for exiting the loop, causing the loop to run forever.
 
 break - A keyword that can be used to end a loop at a specific point. 
+
+
+A recursive function must include a recursive case and base case. The recursive case calls the function again, with a different value. The base case returns a value without calling the same function.
